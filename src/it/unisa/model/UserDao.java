@@ -237,7 +237,7 @@ public class UserDao implements UserDaoInterfaccia {
 			} finally {
 				if (connection != null)
 					connection.close();
-			}
+			} 
 		}
 	}
 
