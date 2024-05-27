@@ -167,7 +167,7 @@ public class ProdottoDao implements ProdottoDaoInterfaccia{
 				ProdottoBean bean = new ProdottoBean();
 
 				bean.setIdProdotto(rs.getInt("ID_PRODOTTO"));
-				bean.setNome(rs.getString("NOME"));
+				bean.setNome(rs.getString("NOME"));  
 				bean.setDescrizione(rs.getString("DESCRIZIONE"));
 				bean.setPrezzo(rs.getDouble("PREZZO"));
 				bean.setQuantita(rs.getInt("QUANTITA"));
